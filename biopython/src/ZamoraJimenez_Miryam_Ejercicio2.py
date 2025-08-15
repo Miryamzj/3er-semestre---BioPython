@@ -9,6 +9,10 @@ class Gen:
         self.secuencia_dna = secuencia_dna.upper()
         self.activo = activo
         self.mensaje = None
+        self.longitud = None
+
+    def obtener_longitud(self):
+        return len(self.secuencia_dna)
 
     def expresar(self):
         if self.activo:
@@ -25,6 +29,7 @@ class Gen:
             self.mensaje = arn
             print(f"El gen {self.nombre} está siendo expresado.")
             print(f"ARN mensajero: {self.mensaje}")
+            print(f"El gen tiene una longitud de {self.obtener_longitud()} ")
         else:
             print(f"El gen {self.nombre} está inactivo. No se expresa.")
 gen_usuario = Gen("GenUsuario",secuencia_usuario)
