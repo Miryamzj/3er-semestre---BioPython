@@ -1,0 +1,110 @@
+PROGRAMACIÓN ORIENTADA A OBJETOS
+
+La programación orientada a objetos (POO) es un paradigma de programación que organiza el código en "objetos" que combinan datos y funciones relacionadas. Es como modelar el mundo real dentro del código.
+
+🧱 ¿Qué es un objeto?
+Un objeto es una entidad que tiene características (datos) y puede realizar acciones (métodos).
+
+Ejemplo:
+Un Perro puede tener:
+
+Atributos: nombre, raza, edad
+
+Métodos: ladrar(), comer(), dormir()
+
+🧩 Conceptos clave:
+Concepto	¿Qué es?	Ejemplo
+Clase:	Es el molde o plano para crear objetos. Conjunto de objetos. class Perro:
+Objeto:	Una instancia concreta de una clase.	mi_perro = Perro()
+Atributos:	Las características de un objeto.	mi_perro.nombre = "Fido"
+Métodos:	Las funciones que pertenecen a un objeto. Cuando la función está ligada a un objeto, entonces es un método.	mi_perro.ladrar()
+Encapsulamiento	Ocultar los detalles internos de un objeto.	(Proteger datos internos)
+Herencia:	Una clase puede heredar de otra.	class PerroGuía(Perro):
+Polimorfismo:	Objetos diferentes pueden usar el mismo método de forma distinta.	ladrar() puede sonar diferente para cada perro
+
+Por ejemplo, una silla (es una clase)
+que tiene como atributos # De patas, respaldo, material, color, cualquier tamaño, asiento 
+Métodos: que sea reclinable 0/1 
+Permitir sentarse. Si tienen demasiado confort, dejan de ser una silla. 
+
+C L A S E S 
+
+En Python, una clase se define con la palabra clave class, y dentro de ella defines los atributos y métodos que tendrán los objetos que crees a partir de esa clase.
+
+🧱 ESTRUCTURA BÁSICA DE UNA CLASE EN PYTHON
+python
+
+class NombreDeLaClase:
+    def __init__(self, atributo1, atributo2):
+        self.atributo1 = atributo1
+        self.atributo2 = atributo2
+
+    def metodo(self):
+        # Acción que realiza el objeto
+        print("Hola, soy un método")
+class: palabra clave para definir la clase.
+
+__init__: es el constructor; se ejecuta al crear un objeto.
+
+self: es una referencia al objeto actual.
+
+🐶 EJEMPLO: Clase Perro
+python
+Copiar
+Editar
+class Perro:
+    def __init__(self, nombre, raza):
+        self.nombre = nombre
+        self.raza = raza
+
+    def ladrar(self):
+        print(f"{self.nombre} dice: ¡Guau!")
+
+# Crear un objeto de la clase
+mi_perro = Perro("Fido", "Labrador")
+
+# Llamar a un método
+mi_perro.ladrar()
+Salida:
+yaml
+Copiar
+Editar
+Fido dice: ¡Guau!
+✅ PASO A PASO EXPLICADO
+class Perro: → defines la clase.
+
+def __init__(self, nombre, raza): → constructor que inicializa atributos.
+
+self.nombre = nombre → guarda el valor dentro del objeto.
+
+def ladrar(self): → método que imprime algo.
+
+mi_perro = Perro("Fido", "Labrador") → se crea un objeto.
+
+mi_perro.ladrar() → llama al método.
+
+# CLASE MAMÍFERO
+class Mamifero:
+    vertebrado = true
+    amamantan = true
+    # atributos de la instancia
+    alimentación  / Carnívoro, omnívoro, herbívoro, etc.
+    progenie 
+    peso = 0
+    altura  = 0 
+
+    def = reproducirse(self, max_progenie): 
+        self.progenie = choice(range(max_progenie))
+    def crecer (self, crecimiento):
+        self.altura = crecimiento
+        self.peso = crecimiento * 0.4 + peso 
+
+
+# instancia de la clase 
+perro = mamifero()
+perro.reproducirse(6)
+print ("el tipo de alimentación del perro es" , perro.alimentación, "mide", perro.altura, "pesa", perro.altura, "altura")
+perro.alimentacion = 'Carnivoro'
+peso.altura = 43
+perro.peso = 6.1
+perro.progenie = 
