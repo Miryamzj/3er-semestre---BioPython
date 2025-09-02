@@ -68,5 +68,5 @@ if __name__ == "__main__":
     proteina = Proteina(nombre, secuencia_dna)
     proteina.mostrar_gen()
     print("ARNt transcrito:", proteina.transcribir_gen())
-    print("Aminoácidos:", proteina.traducir())
+    print("Proteina traducida:", proteina.traducir())
     print("Longitudes:", proteina.longitud())
