@@ -1,0 +1,137 @@
+DERIVA GÉNICA
+Cómo se afectan los supuestos?
+Tamaño demográfico finito
+Apareamientos al azar
+no hay selección 
+los individuos tienen la misma aptitud
+No hay migrantes 
+
+Modelo wrght fisher
+es un modelo que nos permite estudiar el impacto de la deriva génica en patrones de variación genética
+Asumimos: 
+TAmaños de poblaciones finitos y constantes
+apareamiento aleatorio
+sin selección, mutación o migración
+Generaciones no sobrelapantes 
+
+- Todas las especies se reproducen sxualmente
+Cada gen en el genoma tiene una genalogía diferente 
+
+- Probabilidad de que un linaje encuentre un ancestro en a generación anterior es: 1/N 
+N es el número de individuos de cada generación 
+
+TAMAÑO DE LA POBLACIÓN 
+Si tenemos una población muy grande, las frecuencias alélicas se van a manener en .5 
+Si el tamaño es reducido otros alelos se van a perder, mientras que otros se van a fijar 
+
+DERIVA GÉNICA - CONSECUENCIAS: 
+Los alelos tienen la misma probabilidad d aumentar o decrecer en frecuencias 
+las fluctuaciones en frecuencias alélicas son mayores en poblaciones pequeñas 
+La deriva génica causa que la variación genética se reduzca 
+causa que las poblaciones inicialmente idénticas se vuelvan diferenes 
+Aelos se pueden fijar sin la acción de la selección natural 
+
+TAMAÑO DEMOGRÁFICO: 
+Número censal por niños, adultos, recién nacidos 
+
+Tamaño efectivo: los individuos que generan cambios genéticos observados en la siguiente generación 
+Y es afectado por: la proporción de sexos 
+Endogamia 
+Subestructura poblacional
+Selección naturalCambios en el tamaño poblacionalVariación en el número de hijos 
+
+El tamaño efectivo y la Deriva génica son inversamente proporcionales 
+
+- El efecto fundador - 
+
+Cuando se inicia una nueva población a partir de un pequeño número de individuos 
+ - La fijación de mutaciones deletéreas en pequeñas poblaciones, puede contrirbuir la extinción de poblaciones
+   por consecuencia: la disminución por la fijaci´n de mutaciones deletéreas en una población pequeña se denomina CARGA ENDOGÁMICA 
+
+   CARGA ENDOGÁMICA: la acumulación de mutaciones deletéreas, con su fijación 
+
+DIVERSIDAD NUCLEOTÍDICA: Propoción promedio de nucleótidos qe difieren entre un par de copias de genes elegidos aleatoriamente 
+En esencia, es la relación entre la heterocigocidad y el tamaño poblacional
+
+Estrategia para estimar el tamaño poblacional 
+
+Expansiones y contracciones
+ - Cuello de botella: El tamaño de la población se reduce severamente: 
+ Deriva génica 
+
+ Espectro de frecuencias: histograma de recuencias alélicas 
+
+ Si una población está en crecimiento, vvaa estar asociaa con variantes a baja frecuencias
+ Si está en desenso, va a aestar asociada con variantes a baja frecuuencia 
+
+COALESCENCIA: Cada vez que un par de alelos encuentra a un ancestro común en el pasado coalescen, y cuando todos los alelos de una muetra coalescen en un solo ancestro común, han encontrado a un ancestro común más reciente MRCA
+así mismo, el tiempo que los alelos de una muestra tardan en encontrar a un MRCA es el tiempo al ancestro común más reciente 
+ * Buscar qué es el modelo coalescente* 
+
+ La probabilidad de que dos linajes coalezcan en dos generaciones? 
+ ( 1 - 1/N)t - 1  (1/N)
+
+
+INTERACCIÓN DERIVA GÉNICA Y SELECCIÓN NATURAL 
+
+Escenario: una mutación aparece, tiene una baja frecuencia
+La seriva genética su frecuencia puede aumentar o disminuir
+
+La selección aumentará la frecuencia de la mutación más rápidamente de lo esperado 
+Población grande con una deriva génica muy débil, la probabiliad de que la mutación se fije es de sólo el 25% 
+Una mutación 
+
+Selección de fondo: 
+EL polimorfismo se reduce en la variación en la región circundante del cromosoma proximidades  del cromosoma
+Mutación beneficiosa
+Mutación deletérea 
+
+Desequilibrio de ligamiento: Cuando dos alelos están tan juntos que recombinan juntos 
+
+cibattey.shinyapps.lo/driftR/
+
+* LA MUTACIÓN INCORPORA VARIACIÓN GÉNICA MIENTRAS QUE LA DERIVA GÉNICA REDUCE* 
+
+TEORÍA NEUTRAL DE LA EVOLUCIÓN MOLECULAR 
+Incorpora la selección natural al funcionaiento de la evolución a nivel molecular 
+La mayoría de los cambios evolutivos a nivel molecular no son causados por 
+seleecón natural, sino que son neutrales y se fijan en la población por deriva génica 
+
+Nuevas Mutaciones: 
+Si son deletéreas son eliminadas por selección negativa 
+Ventajosas, son raras 
+Neutrales: posición media (mayormente son neutrales)
+
+El polimorfismo suele ser alto en las regiones intergenes y dentro de losi intrones 
+
+En las regiones coificantes (Exones) son menos variables la rimera y segunda base de cada codón. Es más probable en la tercera base 
+
+La tasa de cambio es mucho más alta en los pseudogenes, seguida por regiones intergenes, luego intrones, y al final por las regiones codificantes 
+
+Si son exones, va a haber en la primera o segunda base 
+
+RELOJ MOLECULAR: 
+RELACIÓN LINEAL ENTRE LE TIEMPO Y LA DIVERGENCIA 
+muchos genes evolucionan a un tiempo relativamente constante.
+Estimar el tiemmpo transcurrido desde que dos especies compartieron un ancestro común
+
+No todos los genes tienen el mismo ritmo de cambio 
+
+Se esperan ritmos constantes cuando los genes evolucionan de forma neutral, pero también se obseran ritmos relativamente constantes en genes que evolucinan por selección positiva 
+
+5 CONSIDERACIONES: 
+- El ADN y proteínas cambian sin necesariamente afectar el fenotipo
+- Dentro de las egiones codificantes, las diferencias sinónimas deberían acumularse más rápido que las diferencias no sinónimas entre las especies 
+
+INTERPRETACIONES
+- La selección natural carece de importancia: mutacoines frecuentemente deletéreas se eliminan mediante la selección purificadora 
+No se afirma que la mayoría de las nuevas mutacionnes sean selectivamente neutrales : cualquier nueva mutación que altere la función génica lo alejará de su óptimo adaptativo 
+
+DIVERGENCIA ENTRE poblaciones
+Si existe adaptación a un entorno particular, utilizamos un escaneo genómico para buscar en el genoma signos de selección positiva 
+Un tipo de escaneo compara las frecuencias alélicas en dos o más poblaciones. Los puntos del genoma con una divergencia inusualmente alta, sugieren
+una adapcación local resultante de la propagación de diferentes alelos en distintas pobalciones 
+
+EVOLUCIÓN OCURRE EN EL ESPACIO* 
+
+
